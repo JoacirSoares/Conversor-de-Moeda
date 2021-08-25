@@ -1,0 +1,123 @@
+/* Display grid */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.App {
+    margin: 0 auto;
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: 800px;
+    grid-template-rows: 
+        90px
+        40px
+        40px
+        40px;
+    grid-template-areas: 
+        'cabecalho'
+        'linha1'
+        'linha2'
+        'linha3';
+    height: 100vh;
+}
+
+.linha {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 
+        165px
+        165px
+        165px;
+    grid-template-areas: 
+        'elemento1 elemento2'
+        'elemento3 elemento4'
+        'elemento5 elemento6';
+}
+
+.linha:nth-of-type(1){
+    grid-area: linha1;
+}
+
+.linha:nth-of-type(2){
+    grid-area: linha2;
+}
+
+.linha:nth-of-type(3){
+    grid-area: linha3;
+}
+
+.linha:nth-of-type(1) .conversor:nth-of-type(1) {
+    grid-area: elemento1;
+}
+
+.linha:nth-of-type(1) .conversor:nth-of-type(2) {
+    grid-area: elemento2;
+}
+
+.linha:nth-of-type(2) .conversor:nth-of-type(1) {
+    grid-area: elemento3;
+}
+
+.linha:nth-of-type(2) .conversor:nth-of-type(2) {
+    grid-area: elemento4;
+}
+
+.linha:nth-of-type(3) .conversor:nth-of-type(1) {
+    grid-area: elemento5;
+}
+
+.linha:nth-of-type(3) .conversor:nth-of-type(2) {
+    grid-area: elemento6;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    padding-top: 15px;
+}
+
+h1 {
+    display: inline;
+}
+
+*/
+
+/* Display flex */
+
+.linha {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+.App {
+  margin: auto;
+  max-width: 900px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
